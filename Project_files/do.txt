@@ -1,0 +1,2 @@
+vlog pck.sv Top.sv +cover
+vsim -batch Top -coverage -do "run -all; coverage report -codeAll -cvg -details -verbose"
